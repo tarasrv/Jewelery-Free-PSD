@@ -26,12 +26,13 @@ header{
 .menu{
 	font-family: 'Roboto', sans-serif;
 	display: inline;
-	position: relative;
-	left: 400px;
 	color: white;
 	padding-left: 20px;
 	padding-right: 20px;
 	text-decoration: none;
+}
+.menu_list{
+	float: right;
 }
 	.menu_link:active {
 		color: grey ;
@@ -71,9 +72,9 @@ header{
 	font-size: 20px;
 	margin-left: 10px;
 	margin-right: 10px;
-	border-radius: 3px;
+	border-radius: 5px;
 }
-	.header_button:hover {
+.header_button_learn_more{
 	background-color: red;
 	border: 1px solid red;
 	border-radius: 5px;
@@ -82,19 +83,15 @@ header{
 	color:white;
 	text-decoration: none;
 }
-/*A {
-	color: white;
-	text-decoration: none;
-}
 /*block2*/
 .block2{
 	min-height: 400px;
 		width: 1000px;
 		margin: auto;
+		overflow: hidden;
 }
 .storycontain{
 	font-family: 'Roboto', sans-serif;
-	min-height: 400px;
 }
 	.storycontain_left{
 		font-size: 50px;
@@ -110,6 +107,10 @@ header{
 		color:grey;
 		font-size: 17px;
 		line-height: 150%;
+	}
+	.storycontain_text{
+		padding-top: 15px;
+		padding-bottom: 15px;
 	}
 /*block3*/
 .question{
@@ -195,28 +196,22 @@ header{
 		color: white;
 		text-decoration: none;
 		font-family: 'Roboto', sans-serif;
-		border: 1px solid white;
 		padding: 15px 15px 15px 15px;
 		width: 120px;
 		text-align: center;
 		border-radius: 5px;
-	}
-	.block4_button:hover{
-		color:white;
 		background-color: red;
-		text-decoration: none;
-		border: 1px solid red;
-		border-radius: 5px;
 	}
 .arrow{
 	position: absolute;
 	margin-top:300px;
+	background-color: white;
 }
 	.arrow_left{
-		left:0px;
+		left:35px;
 	}
 	.arrow_right{
-		right: 0px;
+		right: 35px;
 	}
 
 /*block5*/
@@ -271,6 +266,9 @@ header{
 .block5_img{
 	display: inline-block;
 	vertical-align: middle;
+}
+.block5_img_cell{
+	float: left;
 }
 .ourjewelery{
 	font-size: 55px;
@@ -360,10 +358,8 @@ header{
 	margin: auto;
 	margin-bottom: 100px;
 }
-.block7_img{
-	display: inline-block;
-	vertical-align: middle;
-	margin-left: -0.25em;
+.block7_img-table{
+	font-size: 0px;
 }
 .photoblog{
 	float: left;
@@ -434,5 +430,7 @@ footer{
 	margin-top: 100px;
 	font-family: 'Roboto', sans-serif;
 	color: #2e2d2d;
-
+}
+a{
+	text-decoration: none;
 }

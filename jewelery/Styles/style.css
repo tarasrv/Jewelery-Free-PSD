@@ -1,27 +1,19 @@
-body{
-	background-image: url(../Img/Header-bg.png);
-	background-repeat: no-repeat;
-	background-position: center top;
-	margin: auto;
-	overflow: visible;
-}
 .wrapper{
-		margin: auto;
+	width: 960px;
+	margin: auto;
 	}
 	/*Header(block1)*/
-header{
-	margin: auto;
-	width: 992px;
-	margin-top: 20px;
-	min-height: 833px;
-	border:1px solid transparent;
+.block1{
+	background-image: url(../Img/Header-bg.png);
+	height: 853px;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 .logo{
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	color: white;
 	font-size: 20px;
-	float: left;
 }
 .menu{
 	font-family: 'Roboto', sans-serif;
@@ -112,6 +104,10 @@ header{
 		padding-top: 15px;
 		padding-bottom: 15px;
 	}
+.about{
+	margin-top: 25%;
+	display: block;
+}
 /*block3*/
 .question{
 	font-size: 25px;
@@ -233,6 +229,9 @@ header{
 	font-size: 50px;
 	font-weight: bold;
 }
+.whytable_whywe_text{
+	margin-top: 75px;
+}
 .whytable_because{
 	width: 230px;
 	display: inline-table;
@@ -275,6 +274,7 @@ header{
 	font-family: 'Roboto', sans-serif;
 	font-weight: bolder;
 	margin-left: 50px;
+	margin-top: 62px;
 }
 .block5-last-part{
 	font-size: 15px;
@@ -367,6 +367,7 @@ header{
 	font-family: 'Roboto', sans-serif;
 	font-weight: bolder;
 	width: 470px;
+	margin-top: 62px;
 }
 .block7-last-part{
 	font-size: 15px;
